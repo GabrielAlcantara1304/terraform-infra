@@ -1,4 +1,4 @@
-Infraestrutura feita com terraform
+Infraestrutura AWS feita com terraform
 
 O terraform é muito bom para minimizar erros humanos e ter mais controle sobre a infra, com ele conseguimos automatizar a criação da infraestrutura com o uso de scripts de forma com que possamos replica-la. 
 
