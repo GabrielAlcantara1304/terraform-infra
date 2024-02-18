@@ -9,8 +9,8 @@ pipeline {
                 sh 'ls'
             }
         }
-        steps{
-            stage("Execução do projeto") {
+        stage("Execução do projeto"){
+            steps {
                 script {
                     sh 'terraform init'
                     sh 'terraform apply'
