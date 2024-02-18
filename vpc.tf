@@ -11,5 +11,6 @@ resource "aws_vpc" "minha_vpc" {
     "Name" = "minha_vpc"
   }
 
+  
 }
 
