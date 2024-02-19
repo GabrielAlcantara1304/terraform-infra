@@ -11,7 +11,7 @@ pipeline {
         }
         stage("Execução do projeto"){
             environment {
-                AWS_DEFAULT_REGION = credentials('eu-west-1')
+                AWS_DEFAULT_REGION = credentials('AWS_DEFAULT_REGION')
                 AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')
                 AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
                 AWS_BUCKET_KEY = credentials('AWS_BUCKET_KEY')
