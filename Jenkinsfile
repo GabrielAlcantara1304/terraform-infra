@@ -19,7 +19,7 @@ pipeline {
             steps {
                 script {
                     sh 'terraform init backend config="bucket=$AWS_BUCKET backend config="key=$AWS_ACCESS_KEY_ID"'
-                    sh 'terraform apply'
+                    sh 'terraform apply --auto-aprove'
                 }
             }
         }    
