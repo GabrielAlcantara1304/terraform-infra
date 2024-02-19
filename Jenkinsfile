@@ -11,10 +11,10 @@ pipeline {
         }
         stage("Execução do projeto"){
             environment {
-                AWS_ACCESS_KEY_ID = credencials ('')
-                AWS_SECRET_ACCESS_KEY = credencials ('')
-                AWS_BUCKET_KEY = credencials ('')
-                AWS_BUCKET = credencials ('')
+                AWS_ACCESS_KEY_ID = credencials ('AWS_ACCESS_KEY_ID')
+                AWS_SECRET_ACCESS_KEY = credencials ('AWS_SECRET_ACCESS_KEY')
+                AWS_BUCKET_KEY = credencials ('AWS_BUCKET_KEY')
+                AWS_BUCKET = credencials ('AWS_BUCKET')
             }
             steps {
                 script {
